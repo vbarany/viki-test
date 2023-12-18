@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent master 
     stages {
         stage ('Thats one small step for man...') {
             steps{
