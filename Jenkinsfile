@@ -1,5 +1,5 @@
 pipeline {
-    agent master 
+    agent { label 'master'} 
     stages {
         stage ('Thats one small step for man...') {
             steps{
